@@ -27,15 +27,15 @@
         <!-- Maintenant, il faut centrer et mettre un gap entre les élément de la nav bar -->
             <div class="navbar-nav mx-auto">
                 <div><a class="nav-link a-y active" aria-current="page" href="#">Home</a></div>
-                <div><a class="nav-link a-y" href="#">About</a></div>
-                <div><a class="nav-link a-y" href="#">Menu</a></div>
-                <div><a class="nav-link a-y" href="#">Events</a></div>
-                <div><a class="nav-link a-y" href="#">Gallery</a></div>
-                <div><a class="nav-link a-y" href="#">Chefs</a></div>
-                <div><a class="nav-link a-y" href="#">Contact</a></div>
+                <div><a class="nav-link a-y" href="#about">About</a></div>
+                <div><a class="nav-link a-y" href="#menu">Menu</a></div>
+                <div><a class="nav-link a-y" href="#events">Events</a></div>
+                <div><a class="nav-link a-y" href="#gallery">Gallery</a></div>
+                <div><a class="nav-link a-y" href="#chefs">Chefs</a></div>
+                <div><a class="nav-link a-y" href="#contact">Contact</a></div>
             </div>
         </div>
-        <button class="btn1">Book a table</button>
+        <a href="#book"><button class="btn1">Book a table</button></a>
     </div>
   </nav>
 
@@ -48,8 +48,8 @@
             <h1>Welcome to <span>CBIENBON</span></h1>
             <h4>Delivering great food for more than 18 years!</h4>
             <div class="pt-lg-4 header-btns">
-                <button class="btn1">Our menu</button>
-                <button class="btn1 ms-lg-3">Book a table</button>
+                <a href="#menu"><button class="btn1">Our menu</button></a>
+                <a href="#book"><button class="btn1 ms-lg-3">Book a table</button></a>
             </div>
         </div>
         
@@ -72,7 +72,7 @@
             <div class="popup">
                 <div class="popup-content">
                 <!-- 2ème label lié à la checkbox (play-toggle) qui permet de uncheck la checkbox -->
-                <label for="play-toggle" class="close-button">✖️</label>
+                <label for="play-toggle" class="close-button">x</label>
             
                 <!-- YouTube video -->
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/67M1c8cpbvg?si=Bffb0RJd0279V7Ql" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                </div>
@@ -87,7 +87,7 @@
 
 <!-- ////////// SECTION 1 ////////// -->
 
-<section class="section-1 gap-4">
+<section id="about" class="section-1 gap-4">
 
     <div class="d-flex justify-content-end div-img">
         <img src="./public/assets/img/about.jpg" alt="" srcset="">
@@ -139,7 +139,7 @@
 
 <!-- ////////// SECTION 3 ////////// -->
 
-<section class="section-3 d-flex flex-column">
+<section id="menu" class="section-3 d-flex flex-column">
 
     <div class="sect3-title">
         <h6>Menu</h6>
@@ -343,7 +343,7 @@
 
 <!-- ////////// SECTION 4 ////////// -->
 
-<section class="section-4 d-flex flex-column">
+<section id="events" class="section-4 d-flex flex-column">
 
     <div class="sect4-title">
         <h6>Events</h6>
@@ -420,7 +420,7 @@
 
 <!-- ////////// SECTION 5 ////////// -->
 
-<section class="section-5 d-flex flex-column">
+<section id="book" class="section-5 d-flex flex-column">
 
     <div class="sect5-title">
         <h6>Reservation</h6>
@@ -462,7 +462,7 @@
 
 <!-- ////////// SECTION 6 ////////// -->
 
-<section class="section-6">
+<section id="gallery" class="section-6">
 
     <div class="sect6-title">
         <h6>Gallery</h6>
@@ -506,7 +506,7 @@
 
 <!-- ////////// SECTION 7 ////////// -->
 
-<section class="section-7 d-flex flex-column">
+<section id="chefs" class="section-7 d-flex flex-column">
 
     <div class="sect7-title">
         <h6>Chefs</h6>
@@ -517,19 +517,19 @@
         <div class="img-chef">
             <img src="./public/assets/img/chefs/chefs-1.jpg" alt="">
             <div class="overlay">
-                <div class="text">Nom Prénom</div>
+                <!-- <div class="text">Nom Prénom</div> -->
             </div>
         </div>
         <div class="img-chef">
             <img src="./public/assets/img/chefs/chefs-2.jpg" alt="">
             <div class="overlay">
-                <div class="text">Nom Prénom</div>
+                <!-- <div class="text">Nom Prénom</div> -->
             </div>
         </div>
         <div class="img-chef">
             <img src="./public/assets/img/chefs/chefs-3.jpg" alt="">
             <div class="overlay">
-                <div class="text">Nom Prénom</div>
+                <!-- <div class="text">Nom Prénom</div> -->
             </div>
         </div>
     </div>
@@ -541,7 +541,7 @@
 
 <!-- ////////// SECTION 8 ////////// -->
 
-<section class="section-8">
+<section id="contact" class="section-8">
 
     <div class="sect8-title">
         <h6>Contact</h6>
